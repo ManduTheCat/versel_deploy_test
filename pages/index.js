@@ -3,5 +3,10 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  return <dev>hello world im next</dev>;
+  return (
+    <dev>
+      <h1>hello nextjs</h1>
+      <p>this is deploy Test</p>
+    </dev>
+  );
 }
